@@ -1,0 +1,20 @@
+* {
+    background-color: lightblue
+}
+h1 {
+    background-color:rgb(100, 185, 178);
+    padding: 2px;
+    font-size: 19px;
+    display: block;
+    border: 2px lightgrey solid;
+}
+body {
+    background-image:linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4) 
+  ), url("code101_photos/skyline.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
