@@ -1,6 +1,7 @@
-* {
+/* {
     background-color: lightblue
-}
+} 
+
 h1 {
     background-color:rgb(100, 185, 178);
     padding: 2px;
@@ -12,9 +13,81 @@ body {
     background-image:linear-gradient(
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4) 
-  ), url("code101_photos/skyline.jpg");
+  );
+  /* url("code101_photos/skyline.jpg"); 
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: aliceblue;
+    border: dashed 1px green;
+}
+
+p{
+border: dashed 1px red;
+}
+li{
+    border: dashed 1px blue;
+    }
+    
+    go to page 322 for rounded borders*/
+
+    /* body {
+        background-color:#fafafa;
+    } */
+
+    
+    html {
+        height: 100%;
+        width: 100%;
+    }
+    
+    body {
+        background-color: rgba(179, 202, 202, 0.6);
+        background-image: url("about_Me_Photos/backgroundGreyPhoto.jpg");
+        height: 100%; 
+        background-position: center; 
+        background-repeat: repeat;
+        background-size: cover;
+        color: aliceblue;   
+        width: 100%;
+        height: 100%;
+        } */
+    
+    header {
+        background-color:rgb(100, 185, 178);
+        padding: 5px;
+        font-size: 19px;
+        display: block;
+        border: 2px lightgrey solid;
+    } 
+    
+    nav {
+        background-color:rgb(157, 188, 188);
+        font-size: 20px;
+        float: left;
+        width: 100%;
+        border: 10px lightgrey solid;
+    }
+    
+    nav li {
+        float: left;
+        list-style-type: none;
+    }
+    nav li a {
+        display: block;
+        height: 20px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+        color: #fff;
+    }
+    
+        
+    
+    /* aside {
+    
+    }
+    
+    aside ul {
+    
+    }  */
