@@ -19,6 +19,7 @@ var usernameFunction= function(){
     console.log('What is your name? ' + userName);
   } while (!userName);
   alert('Hi, ' + userName + ' that is such a cool name! Now that I know something about you, let\'s see how much you know about me! Please make sure to answer yes or no for the first 5 questions!');
+  console.log(correctGuesses);
   console.log('What is your name? ' + userName);
   return userName;
 };
@@ -34,13 +35,14 @@ var vegetarianFunction = function() {
   vegetarian = vegetarian.toUpperCase();
   if(vegetarian === 'YES'|| vegetarian === 'Y') {
     alert('No way, I haven\'t had meat in years! Well, except one crazy weekend, but that\'s our little secret!');
-    correctGuesses++;
 
   } else if (vegetarian=== 'NO'|| vegetarian === 'N') {
     alert('I knew we were friends!');
+    correctGuesses++;
   } else {
     alert('Come on, give me a REAL answer!');
   }
+  console.log(correctGuesses);
   console.log('Does Ariel eat meat? ' + vegetarian);
   return vegetarianFunction;
 };
@@ -60,6 +62,7 @@ var skrillexFunction = function() {
   } else {
     alert('Come on, give me a REAL answer!');
   }
+  console.log(correctGuesses);
   console.log('Did Ariel hang out with skrillex? ' + skrillex);
   return skrillex;
 };
@@ -80,6 +83,7 @@ var animeFunction = function() {
   } else {
     alert('Come on, I want you to give me a REAL answer!');
   }
+  console.log(correctGuesses);
   console.log('Does Ariel like anime? ' + anime);
   return anime;
 };
@@ -99,6 +103,7 @@ var willFunction = function() {
   } else {
     alert('Come on, I want a REAL answer!');
   }
+  console.log(correctGuesses);
   console.log('Did Ariel carve pumpkins with Will Smith\'s stunt double?? ' + willSmith);
   return willSmith;
 };
@@ -118,6 +123,7 @@ var bearFunction = function() {
   } else {
     alert('Come on, give me a REAL answer!');
   }
+  console.log(correctGuesses);
   console.log('Did Ariel ever eat a bear? ' + bear);
   return bear;
 };
@@ -140,6 +146,7 @@ var collegeFunction = function() {
       break;
     }
   }
+  console.log(correctGuesses);
   console.log('Can you guess how many colleges I have attended' + colleges);
   return colleges;
 };
@@ -154,10 +161,12 @@ var statesFunction = function() {
       alert('That is correct! The States I have lived in are Washington, Mississippi, Idaho, Oregon, and New York!');
       correctGuesses++;
       break;
-    } else if (i < 6) {
+    } else if (i < 6 && statesGuess !== statesLivedIn(statesGuess)) {
       alert('Sorry, I have never lived there!');
     }
   }
+  console.log(correctGuesses);
+  console.log ('Can you guess a state I have lived in? ' + statesGuess);
   return statesGuess;
 };
 // function calls:
