@@ -1,73 +1,22 @@
-/* {
-    background-color: lightblue
-} 
-
-h1 {
-    background-color:rgb(100, 185, 178);
-    padding: 2px;
-    font-size: 19px;
-    display: block;
-    border: 2px lightgrey solid;
-}
-body {
-    background-image:linear-gradient(
-    rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.4) 
-  );
-  /* url("code101_photos/skyline.jpg"); 
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: aliceblue;
-    border: dashed 1px green;
-}
-
-p{
-border: dashed 1px red;
-}
-li{
-    border: dashed 1px blue;
-    }
-    
-    go to page 322 for rounded borders*/
-
-    /* body {
-        background-color:#fafafa;
-    } */
-
-    
     html {
         height: 100%;
         width: 100%;
     }
-    
-    body {
-        background-color: rgba(179, 202, 202, 0.6);
-        background-image: url("about_Me_Photos/backgroundGreyPhoto.jpg");
-        height: 100%; 
-        background-position: center; 
-        background-repeat: repeat;
-        background-size: cover;
-        color: aliceblue;   
-        width: 100%;
-        height: 100%;
-        } */
-    
-    header {
-        background-color:rgb(100, 185, 178);
-        padding: 5px;
-        font-size: 19px;
-        display: block;
-        border: 2px lightgrey solid;
-    } 
-    
+    h1{
+        font-family: 'Parisienne', cursive;
+        font-size: 80px;
+        color: #fff;
+        margin: 20px;
+    }
+  
     nav {
-        background-color:rgb(157, 188, 188);
+        background-color:rgba(157, 188, 188, .5);
         font-size: 20px;
         float: left;
         width: 100%;
         border: 10px lightgrey solid;
+        border-radius: 8px;
+        margin-bottom: 30px;
     }
     
     nav li {
@@ -81,13 +30,57 @@ li{
         vertical-align: middle;
         color: #fff;
     }
-    
-        
-    
-    /* aside {
-    
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(179, 202, 202); 
+        background-image: url("about_Me_Photos/backgroundGreyPhoto.jpg");
+        height: 100%; 
+        background-position: center; 
+        background-repeat: repeat;
+        background-size: cover;
+        color: rgba(107,111, 105, 1);   
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+    } 
+
+
+    #questions{
+        border-top: 4px solid lightgrey;
     }
-    
-    aside ul {
-    
-    }  */
+
+    h3 {
+        font-family: 'PT Sans', sans-serif;
+        color: #fff;
+        font-size: 25px;
+        font-weight: lighter;
+
+    }
+    h4{
+        margin: 15px;
+        padding: 15px;
+    }
+
+    blockquote {
+        float: right;
+        width: 275 px;
+        font-style: italic;
+        margin: 0px, 0px, 10px 10px;
+        padding: 10px;
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    #footer {
+        font-style: italic;
+        margin: 0px, 0px, 10px, 10px;
+        padding: 10px;
+        border-bottom: 1px solid darkgrey;
+    }
+
+    img {
+        border-radius: 8px;
+        opacity: .8;
+        border: 6px solid lightgrey;
+    }
